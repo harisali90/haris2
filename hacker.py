@@ -25,7 +25,8 @@ header = {'x-fb-connection-bandwidth': repr(bd), 'x-fb-sim-hni': repr(sim), 'x-f
    'x-fb-http-engine': 'Liger'}
 os.system('git pull')
 os.system('clear')
-logo = 
+logo = '\n\x1b[1;94m \n\x1b[1;92m \n\x1b[1;93m \n\x1b[1;92m \n\x1b[1;94m     #     #    #    #       ### #    # \n\x1b[1;92m     ##   ##   # #   #        #  #   #  \n\x1b[1;93m     # # # #  #   #  #        #  #  #   \n\x1b[1;95m     #  #  # #     # #        #  ###    \n\x1b[1;94m     #     # ####### #        #  #  #\n\x1b[1;96m     #     # #     # #        #  #   #\n\x1b[1;97m     #     # #     # ####### ### #    #                                      \n\x1b[1;94m                                 \n     \x1b[31;1m[\x1b[43;1m This tool is free not for sale \x1b[00;1m\x1b[31;1m ]\n\n     \x1b[32;1mCreator \x1b[37;1m: \x1b[33;1mMalik Asghar Latif\n     \x1b[32;1mFB ID   \x1b[37;1m: \x1b[33;1mAsghar Latif\n'
+
 def reg():
     os.system('clear')
     print logo
